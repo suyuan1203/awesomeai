@@ -628,6 +628,18 @@ export const models: AIModel[] = [
     featured: true,
   },
   {
+    id: "genie-4",
+    name: "Genie 4",
+    developer: "Google DeepMind",
+    logo: "🌍",
+    url: "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    type: "世界模型",
+    openSource: false,
+    description:
+      "Google DeepMind 新一代实时交互世界模型，可生成具备真实物理与人物表现的 3D 世界，新增音频与实时操控能力，面向机器人与影视制作等场景。",
+    tags: ["世界模型", "实时交互", "机器人", "影视"],
+  },
+  {
     id: "runway-gen-4",
     name: "Runway Gen-4",
     developer: "Runway",

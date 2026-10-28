@@ -361,6 +361,12 @@ export const modelsEn: Record<string, Partial<AIModel>> = {
       "OpenAI's video generation model that creates realistic, coherent clips from text, opening a new era of AI video.",
     tags: ["Video Generation", "Text-to-Video"],
   },
+  "genie-4": {
+    type: "World Model",
+    description:
+      "Google DeepMind's next-generation real-time interactive world model, generating 3D worlds with realistic physics and humans and adding audio plus real-time steering, aimed at robotics and film production.",
+    tags: ["World Model", "Real-time", "Robotics", "Film"],
+  },
   "runway-gen-4": {
     type: "Video Generation",
     description:
