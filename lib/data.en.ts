@@ -214,6 +214,12 @@ export const modelsEn: Record<string, Partial<AIModel>> = {
       "OpenAI's reasoning model series that greatly improves math, coding and science problem solving through deeper thinking.",
     tags: ["Reasoning", "Deep Thinking", "Agent"],
   },
+  "gpt-6-1-terra": {
+    type: "Reasoning / Multimodal",
+    description:
+      "OpenAI's cost-effective model for everyday computer work, supporting image input and multi-step reasoning, strong at visual understanding, precise computer use and natural writing, with a 1.05M-token context window.",
+    tags: ["Reasoning", "Multimodal", "Computer Use", "Cost-effective"],
+  },
   "claude-3-7-sonnet": {
     type: "Reasoning",
     description:

@@ -358,6 +358,18 @@ export const models: AIModel[] = [
     featured: true,
   },
   {
+    id: "gpt-6-1-terra",
+    name: "GPT-6.1 Terra",
+    developer: "OpenAI",
+    logo: "🌏",
+    url: "https://openai.com/zh-Hans-CN/index/introducing-gpt-6-1-terra/",
+    type: "推理 / 多模态",
+    openSource: false,
+    description:
+      "OpenAI 面向日常计算机操作的高性价比模型，支持图像输入与多步推理，擅长视觉理解、精确的电脑操作与自然写作，拥有约 105 万 token 超长上下文。",
+    tags: ["推理", "多模态", "计算机操作", "高性价比"],
+  },
+  {
     id: "claude-3-7-sonnet",
     name: "Claude 3.7 Sonnet",
     developer: "Anthropic",

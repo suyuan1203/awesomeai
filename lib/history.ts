@@ -269,8 +269,8 @@ export const eras: Era[] = [
         year: "2026",
         title: { zh: "新一代前沿模型涌现", en: "A New Wave of Frontier Models" },
         description: {
-          zh: "Gemini 4 Argon、MiniMax M3.1 Flash、Kimi K3.1 Pro 以及世界模型 Genie 4 等新一代模型出现，在智能体任务、编程、计算机操作与多模态理解上持续突破。",
-          en: "A new generation including Gemini 4 Argon, MiniMax M3.1 Flash, Kimi K3.1 Pro and the world model Genie 4 arrives, pushing forward in agentic tasks, coding, computer use and multimodal understanding.",
+          zh: "Gemini 4 Argon、MiniMax M3.1 Flash、Kimi K3.1 Pro、世界模型 Genie 4 与 GPT-6.1 Terra 等新一代模型出现，在智能体任务、编程、计算机操作与多模态理解上持续突破。",
+          en: "A new generation including Gemini 4 Argon, MiniMax M3.1 Flash, Kimi K3.1 Pro, the world model Genie 4 and GPT-6.1 Terra arrives, pushing forward in agentic tasks, coding, computer use and multimodal understanding.",
         },
       },
     ],
@@ -296,4 +296,5 @@ export const modelReleases: ModelRelease[] = [
   { date: "2026.10.19", name: "MiniMax M3.1 Flash", developer: { zh: "MiniMax", en: "MiniMax" }, open: false },
   { date: "2026.10.23", name: "Kimi K3.1 Pro", developer: { zh: "月之暗面", en: "Moonshot AI" }, open: true },
   { date: "2026.10.27", name: "Genie 4", developer: { zh: "Google DeepMind", en: "Google DeepMind" }, open: false },
+  { date: "2026.10.28", name: "GPT-6.1 Terra", developer: { zh: "OpenAI", en: "OpenAI" }, open: false },
 ];
