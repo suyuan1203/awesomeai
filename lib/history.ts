@@ -297,4 +297,5 @@ export const modelReleases: ModelRelease[] = [
   { date: "2026.10.23", name: "Kimi K3.1 Pro", developer: { zh: "月之暗面", en: "Moonshot AI" }, open: true },
   { date: "2026.10.27", name: "Genie 4", developer: { zh: "Google DeepMind", en: "Google DeepMind" }, open: false },
   { date: "2026.10.28", name: "GPT-6.1 Terra", developer: { zh: "OpenAI", en: "OpenAI" }, open: false },
+  { date: "2026.10.28", name: "Gemini 4 Carbon", developer: { zh: "Google DeepMind", en: "Google DeepMind" }, open: false },
 ];

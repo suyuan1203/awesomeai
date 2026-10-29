@@ -408,6 +408,18 @@ export const models: AIModel[] = [
     featured: true,
   },
   {
+    id: "gemini-4-carbon",
+    name: "Gemini 4 Carbon",
+    developer: "Google DeepMind",
+    logo: "🔷",
+    url: "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    type: "推理 / 多模态",
+    openSource: false,
+    description:
+      "Google DeepMind 新一代前沿模型，在编程与智能体任务上取得显著提升，重返 AI 智能榜第一，并强化网络安全能力；目前访问受限。",
+    tags: ["推理", "多模态", "编程", "智能体", "前沿"],
+  },
+  {
     id: "gemini-2-5-pro",
     name: "Gemini 2.5 Pro",
     developer: "Google DeepMind",

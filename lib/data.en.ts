@@ -238,6 +238,12 @@ export const modelsEn: Record<string, Partial<AIModel>> = {
       "Google DeepMind's next-generation natively multimodal reasoning model for complex workflows, with frontier ability in software engineering, legal and finance knowledge work, and cybersecurity defense.",
     tags: ["Reasoning", "Multimodal", "Flagship", "Frontier"],
   },
+  "gemini-4-carbon": {
+    type: "Reasoning / Multimodal",
+    description:
+      "Google DeepMind's new frontier model with significant gains in coding and agentic tasks, retaking the top spot on AI intelligence benchmarks and strengthening cybersecurity capability; access is currently limited.",
+    tags: ["Reasoning", "Multimodal", "Coding", "Agent", "Frontier"],
+  },
   "gemini-2-5-pro": {
     type: "Multimodal",
     description:
