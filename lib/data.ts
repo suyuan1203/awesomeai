@@ -710,6 +710,7 @@ export const models: AIModel[] = [
     description:
       "ACE Studio 与 StepFun 联合开源的音乐生成基础模型，采用「语言模型规划 + 扩散 Transformer」混合架构，可根据文本与歌词生成完整歌曲，支持翻唱、重绘、扩展与 LoRA 微调，最低 4GB 显存即可本地运行。",
     tags: ["开源", "音乐生成", "本地部署", "LoRA"],
+    featured: true,
   },
   {
     id: "whisper",

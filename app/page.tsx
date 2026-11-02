@@ -35,7 +35,7 @@ export default function HomePage() {
 
   const featuredModels: FeaturedItem[] = localizeModels(models, lang)
     .filter((m) => m.featured)
-    .slice(0, 6)
+    .slice(0, 8)
     .map((m) => ({
       id: m.id,
       logo: m.logo,

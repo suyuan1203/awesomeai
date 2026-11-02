@@ -291,6 +291,7 @@ export const modelReleases: ModelRelease[] = [
   { date: "2025.03.25", name: "Gemini 2.5 Pro", developer: { zh: "Google", en: "Google" }, open: false },
   { date: "2025.04.05", name: "Llama 4", developer: { zh: "Meta", en: "Meta" }, open: true },
   { date: "2025.05.22", name: "Claude 4", developer: { zh: "Anthropic", en: "Anthropic" }, open: false },
+  { date: "2025.06", name: "ACE-Step", developer: { zh: "ACE Studio / StepFun", en: "ACE Studio / StepFun" }, open: true },
   { date: "2025.07.11", name: "Kimi K2", developer: { zh: "月之暗面", en: "Moonshot AI" }, open: true },
   { date: "2026.10.13", name: "Gemini 4 Argon", developer: { zh: "Google DeepMind", en: "Google DeepMind" }, open: false },
   { date: "2026.10.19", name: "MiniMax M3.1 Flash", developer: { zh: "MiniMax", en: "MiniMax" }, open: false },
