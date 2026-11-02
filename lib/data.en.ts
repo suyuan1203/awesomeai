@@ -397,6 +397,12 @@ export const modelsEn: Record<string, Partial<AIModel>> = {
       "An AI music model that generates complete songs with vocals from lyrics and style descriptions, lowering the barrier to music creation.",
     tags: ["Music Generation", "Text-to-Music"],
   },
+  "ace-step": {
+    type: "Audio / Music",
+    description:
+      "An open-source music generation foundation model from ACE Studio and StepFun, using a hybrid LM planner + Diffusion Transformer architecture to create full songs from text and lyrics, with cover, repaint, extend and LoRA fine-tuning, running locally on as little as 4 GB VRAM.",
+    tags: ["Open Source", "Music Generation", "Local", "LoRA"],
+  },
   whisper: {
     type: "Audio / Speech",
     description:

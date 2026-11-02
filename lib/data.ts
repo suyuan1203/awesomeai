@@ -700,6 +700,18 @@ export const models: AIModel[] = [
     tags: ["音乐生成", "文本生成音乐"],
   },
   {
+    id: "ace-step",
+    name: "ACE-Step",
+    developer: "ACE Studio / StepFun",
+    logo: "🎼",
+    url: "https://github.com/ace-step/ACE-Step-1.5",
+    type: "音频 / 音乐",
+    openSource: true,
+    description:
+      "ACE Studio 与 StepFun 联合开源的音乐生成基础模型，采用「语言模型规划 + 扩散 Transformer」混合架构，可根据文本与歌词生成完整歌曲，支持翻唱、重绘、扩展与 LoRA 微调，最低 4GB 显存即可本地运行。",
+    tags: ["开源", "音乐生成", "本地部署", "LoRA"],
+  },
+  {
     id: "whisper",
     name: "Whisper",
     developer: "OpenAI",
