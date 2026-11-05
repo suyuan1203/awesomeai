@@ -343,6 +343,14 @@ export const modelsEn: Record<string, Partial<AIModel>> = {
       "Tencent's Hunyuan model, whose open version excels at Chinese understanding and generation and is widely used across Tencent products.",
     tags: ["Open Source", "Chinese", "Hunyuan"],
   },
+  hy4: {
+    name: "Hy4",
+    developer: "Tencent",
+    type: "Reasoning / Multimodal",
+    description:
+      "Tencent's next-generation Hy model adds visual understanding and computer use, with complex chart analysis, tool calling and long-horizon agentic tasks for office work, financial analysis, game development and scientific research. Weights and a system card for the full release are planned for publication.",
+    tags: ["Multimodal", "Reasoning", "Computer Use", "Agent", "Open Weights Planned"],
+  },
   "grok-3": {
     type: "Reasoning / Multimodal",
     description:

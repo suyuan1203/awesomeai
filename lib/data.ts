@@ -591,6 +591,18 @@ export const models: AIModel[] = [
     tags: ["开源", "中文", "混元"],
   },
   {
+    id: "hy4",
+    name: "混元 Hy4",
+    developer: "腾讯",
+    logo: "🐧",
+    url: "https://hy.tencent.ai/research/hy4",
+    type: "推理 / 多模态",
+    openSource: false,
+    description:
+      "腾讯混元新一代多模态推理模型，新增视觉理解与计算机操作，支持复杂图表分析、工具调用和长程智能体任务，面向办公、金融分析、游戏开发与科研；正式版权重与系统卡计划后续公开。",
+    tags: ["多模态", "推理", "计算机操作", "智能体", "待开放权重"],
+  },
+  {
     id: "grok-3",
     name: "Grok 3",
     developer: "xAI",
