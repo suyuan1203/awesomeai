@@ -32,7 +32,7 @@ type Dict = {
     tools: string;
     viewAll: string;
   };
-  about: { title: string; desc: string };
+  about: { title: string; desc: string; github: string };
   footer: { tagline: string; copyright: string };
   directory: {
     all: string;
@@ -85,6 +85,7 @@ const zh: Dict = {
   about: {
     title: "关于本站",
     desc: "AwesomeAI 聚合了 AI 公司、AI 模型与 AI 工具三类信息，帮助你快速了解 AI 行业版图。本站数据为人工整理，部分信息可能随时间变化，请以各官方渠道为准。",
+    github: "GitHub 仓库",
   },
   footer: {
     tagline: "发现更好的 AI · 数据仅供参考，信息以官方为准",
@@ -154,6 +155,7 @@ const en: Dict = {
   about: {
     title: "About",
     desc: "AwesomeAI curates AI companies, models and tools to help you understand the AI landscape. The data is manually maintained and may change over time; please refer to official sources.",
+    github: "GitHub repository",
   },
   footer: {
     tagline: "Discover better AI · For reference only, see official sources",

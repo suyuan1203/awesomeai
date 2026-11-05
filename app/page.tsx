@@ -171,6 +171,15 @@ export default function HomePage() {
           <p className="mt-3 max-w-3xl text-sm leading-relaxed text-slate-500">
             {t.about.desc}
           </p>
+          <a
+            href="https://github.com/suyuan1203/awesomeai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-indigo-600 underline-offset-4 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-indigo-600"
+          >
+            {t.about.github}
+            <span aria-hidden="true">↗</span>
+          </a>
         </div>
       </section>
     </div>
