@@ -349,6 +349,12 @@ export const modelsEn: Record<string, Partial<AIModel>> = {
       "xAI's flagship model with real-time information from X, offering strong reasoning and multimodal capabilities.",
     tags: ["Reasoning", "Multimodal", "Real-time"],
   },
+  "ripple-65b-preview": {
+    type: "Text / Reasoning",
+    description:
+      "Ricursive Intelligence's 65B-parameter dense language model, pretrained from scratch with open weights under Apache 2.0. Built for reasoning and agentic coding, with up to a 1M-token context window and BF16 and NVFP4 weights for local deployment.",
+    tags: ["Open Source", "Agentic Coding", "Long Context", "65B"],
+  },
   "mistral-large": {
     type: "Text",
     description:

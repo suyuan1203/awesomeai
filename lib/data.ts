@@ -603,6 +603,18 @@ export const models: AIModel[] = [
     tags: ["推理", "多模态", "实时"],
   },
   {
+    id: "ripple-65b-preview",
+    name: "Ripple-65B Preview",
+    developer: "Ricursive Intelligence",
+    logo: "🌊",
+    url: "https://www.ricursive.com/ripple",
+    type: "文本 / 推理",
+    openSource: true,
+    description:
+      "Ricursive Intelligence 从零预训练的 650 亿参数稠密语言模型，采用 Apache 2.0 许可开放权重，面向推理与智能体编程任务，支持最长 100 万 token 上下文，提供 BF16 与 NVFP4 权重供本地部署。",
+    tags: ["开源", "智能体编程", "长上下文", "65B"],
+  },
+  {
     id: "mistral-large",
     name: "Mistral Large",
     developer: "Mistral AI",

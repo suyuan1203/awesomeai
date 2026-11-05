@@ -300,4 +300,5 @@ export const modelReleases: ModelRelease[] = [
   { date: "2026.10.28", name: "GPT-6.1 Terra", developer: { zh: "OpenAI", en: "OpenAI" }, open: false },
   { date: "2026.10.28", name: "Gemini 4 Carbon", developer: { zh: "Google DeepMind", en: "Google DeepMind" }, open: false },
   { date: "2026.11.04", name: "GPT-Image-2.6", developer: { zh: "OpenAI", en: "OpenAI" }, open: false },
+  { date: "2026.11.04", name: "Ripple-65B Preview", developer: { zh: "Ricursive Intelligence", en: "Ricursive Intelligence" }, open: true },
 ];
