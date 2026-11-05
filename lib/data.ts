@@ -615,6 +615,18 @@ export const models: AIModel[] = [
     tags: ["开源", "多语言", "欧洲"],
   },
   {
+    id: "gpt-image-2-6",
+    name: "GPT-Image-2.6",
+    developer: "OpenAI",
+    logo: "🎨",
+    url: "https://openai.com/index/introducing-images-2-6/",
+    type: "图像生成",
+    openSource: false,
+    description:
+      "OpenAI 的图像生成与编辑模型系列，包含侧重快速迭代的 Flare 和侧重精细创作的 Sunburst，提升多轮编辑中的角色与产品一致性，支持 GIF 动画、SVG 导出、标注编辑与复杂度控制，可通过 ChatGPT、Codex 和 API 使用。",
+    tags: ["图像生成", "图像编辑", "GIF", "SVG"],
+  },
+  {
     id: "stable-diffusion-3-5",
     name: "Stable Diffusion 3.5",
     developer: "Stability AI",

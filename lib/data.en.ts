@@ -355,6 +355,12 @@ export const modelsEn: Record<string, Partial<AIModel>> = {
       "Europe's flagship model with strong multilingual and reasoning ability, available as open weights and via API.",
     tags: ["Open Source", "Multilingual", "Europe"],
   },
+  "gpt-image-2-6": {
+    type: "Image Generation",
+    description:
+      "OpenAI's image generation and editing model family, with Flare for fast iteration and Sunburst for detailed creative work. Improves character and product consistency across edits, with GIF animation, SVG export, markup-guided edits and complexity controls, available through ChatGPT, Codex and the API.",
+    tags: ["Image Generation", "Image Editing", "GIF", "SVG"],
+  },
   "stable-diffusion-3-5": {
     type: "Image Generation",
     description:
