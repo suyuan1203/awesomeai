@@ -675,6 +675,18 @@ export const models: AIModel[] = [
     tags: ["图像生成", "开源", "文字渲染"],
   },
   {
+    id: "gemini-omni-1-2-flash",
+    name: "Gemini Omni 1.2 Flash",
+    developer: "Google DeepMind",
+    logo: "🎞️",
+    url: "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+    type: "视频生成",
+    openSource: false,
+    description:
+      "Google DeepMind 的多模态视频生成与编辑模型，支持文本、图像、音频和视频输入，可原生生成最长 15 秒的带音频视频，通过多轮对话精细编辑，强化角色、物体与场景一致性，并支持 1080p 与 4K 超分辨率输出。",
+    tags: ["视频生成", "多模态输入", "对话式编辑", "角色一致性"],
+  },
+  {
     id: "sora",
     name: "Sora",
     developer: "OpenAI",

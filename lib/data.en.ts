@@ -387,6 +387,12 @@ export const modelsEn: Record<string, Partial<AIModel>> = {
       "A new-generation image model from the original Stable Diffusion team, with clear gains in detail and text rendering.",
     tags: ["Image Generation", "Open Source", "Text Rendering"],
   },
+  "gemini-omni-1-2-flash": {
+    type: "Video Generation",
+    description:
+      "Google DeepMind's multimodal video generation and editing model accepts text, images, audio and video, natively generating clips up to 15 seconds with audio. Supports multi-turn conversational editing, stronger character, object and scene consistency, and upscaling to 1080p and 4K.",
+    tags: ["Video Generation", "Multimodal Input", "Conversational Editing", "Character Consistency"],
+  },
   sora: {
     type: "Video Generation",
     description:
